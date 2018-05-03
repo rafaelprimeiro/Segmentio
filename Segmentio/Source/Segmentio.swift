@@ -330,7 +330,7 @@ open class Segmentio: UIView {
     public func reloadSegmentio() {
         segmentioCollectionView?.collectionViewLayout.invalidateLayout()
         segmentioCollectionView?.reloadData()
-        guard selectedSegmentioIndex != -1 else { return }
+//        guard selectedSegmentioIndex != -1 else { return }
         scrollToItemAtContext()
         moveShapeLayerAtContext()
     }
